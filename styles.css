@@ -145,6 +145,7 @@
 
 .insta-main-profile {
   display: grid;
+  grid-template-rows: 80px 280px;
 }
 
 .insta-main-me {
@@ -152,7 +153,7 @@
   width: 350px;
   height: 56px;
   background-color: #fff;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 
 .insta-main-suggestion {

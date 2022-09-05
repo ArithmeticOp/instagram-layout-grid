@@ -75,4 +75,89 @@
 
 .insta-main {
   display: grid;
+  justify-content: center;
+  width: 100%;
+  min-width: 100vh;
+}
+
+.insta-main-element {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  max-width: 1000px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.insta-main-feed {
+  display: grid;
+  width: 470px;
+}
+
+.insta-main-story {
+  border: 1px solid rgb(219, 219, 219);
+  /* height: 90px; */
+  width: 100%;
+  margin-bottom: 8px;
+  padding-top: 16px;
+  display: grid;
+  grid-auto-flow: column;
+  overflow: hidden;
+  overflow-x: scroll;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.insta-main-story-card {
+  display: grid;
+  align-items: center;
+  max-width: 56px;
+  margin: 0 0 0 16px;
+}
+
+.insta-main-story-current {
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.insta-main-story-current img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.insta-main-story-username {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.insta-main-post {
+  margin-top: 8px;
+  border: 1px solid;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.insta-main-profile {
+  display: grid;
+}
+
+.insta-main-me {
+  border: 1px solid;
+  width: 350px;
+  height: 56px;
+  background-color: #fff;
+  margin-bottom: 0;
+}
+
+.insta-main-suggestion {
+  border: 1px solid;
+  width: 350px;
+  height: 280px;
+  background-color: #fff;
 }
